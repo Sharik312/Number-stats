@@ -61,11 +61,7 @@ main()
 """
 
 Back-End Task:
-create function that will take in 2 parameters (num_range, user_guess)
-num_range will be the range of numbers
-create 3 ranges (1-10, 1-100, 1-1000)
-then check if correct using user guess
+create function that will take in a parameters (user_guess)
 return False/True if user is correct or not
-num_range will be 1,2,3
 
 """
