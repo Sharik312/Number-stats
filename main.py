@@ -4,6 +4,7 @@ import pygame, random, time # importing libraries
 pygame.font.init() # initialising pygame font
 pygame.init() # initialising pygame
 
+# cringe
 # Creating color variables
 RED = 255, 0, 0
 GREEN  = 0, 255, 0
