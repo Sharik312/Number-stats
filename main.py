@@ -1,10 +1,7 @@
-from sys import float_repr_style
-from tkinter.messagebox import RETRY
 import pygame, random, time # importing libraries
 pygame.font.init() # initialising pygame font
 pygame.init() # initialising pygame
 
-# cringe
 # Creating color variables
 RED = 255, 0, 0
 GREEN  = 0, 255, 0
@@ -17,10 +14,15 @@ SC_WIDTH, SC_LENGTH = 500, 350
 
 # Creating Window
 WIN = pygame.display.set_mode((SC_WIDTH, SC_LENGTH))
-pygame.display.set_caption("Guess The Number Game!")
+pygame.display.set_caption("Number Stats")
 
-TEXT_FONT = pygame.font.SysFont('comicsans', 40)
-RETRY_FONT = pygame.font.SysFont('comicsans', 40)
+FONT = pygame.font.SysFont('comicsans', 40)
+
+# BACK END DO FUNCTIONS BELOW
+
+
+
+
 
 
 # function that will draw everything on the screen
@@ -62,7 +64,16 @@ main()
 """
 
 Back-End Task:
-create function that will take in a parameters (user_guess)
-return False/True if user is correct or not
+
+Is it Prime
+Is it Even
+Is it a square number
+Is it a cube number
+Number square root 2dp
+Number cube root 2dp
+Number squared
+Number cubed
+
+Create Functions/lambdas at dedicated area (line 22)
 
 """
